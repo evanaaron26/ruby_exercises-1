@@ -9,8 +9,8 @@ end
 
 class Employee
   attr_reader :first_name, :last_name, :salary, :active  #THIS IS THE READER METHOD. IT TAKES THE DEF INITIALIZE AND PUTS IT 
-  #CLASS OF EMPLOYEE. 
-  attr_writer :active #THIS IS THE WRITER METHOD. IT TAKE THE ATTR WRITER AND MAKES IT ACTIVE
+  #CLASS OF EMPLOYEE. OTHERWISE KNOWN AS THE GETTER.
+  attr_writer :active #THIS IS THE WRITER METHOD. IT TAKE THE ATTR WRITER AND MAKES IT ACTIVE. OTHERWISE KNOWN AS THE SETTER.
 
   def initialize(input_options)
       @first_name = input_options[:first_name]
