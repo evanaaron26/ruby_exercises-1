@@ -1,4 +1,4 @@
-module Reporting
+module Reporting # this is the module method. it is used as a smaller version of class. 
   def send_report
     puts "Sending Email..."
     #code to send email
@@ -32,7 +32,7 @@ class Manager < Employee
   include Reporting
 
   def initialize(input_options)
-    super
+    super #this is the super cmd that inherits from class
     @employees = input_options[:employees]
   end
 
