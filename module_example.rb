@@ -1,4 +1,5 @@
-module VehicleBehavior
+module VehicleBehavior # this is an example pf module syntax. In this case it's used for VehicleBehavior. 
+  #This is written in camelcase. Module is used to close classes from being affected by commands. 
 
   def brake
     @speed = 0
