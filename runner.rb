@@ -1,6 +1,6 @@
-require "./employee.rb"
-require "./manager.rb"
-require "./intern.rb"
+require "./employee.rb"  # this is an example of a runner file. the files to the left are linking to other files  
+require "./manager.rb" # SAA 
+require "./intern.rb" # SAA 
 
 employee_1 = Actualize::Employee.new({
                           first_name: "John", 
